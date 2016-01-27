@@ -1,0 +1,21 @@
+ASTR-535
+
+Observational Techniques
+______________________________________________________________________________________________________________________________________________
+HOMEWORK #2
+(1/25, 20 mins) What is the solar constant (definition and value, look it up if necessary)? What is the surface brightness of the Sun as seen from Earth? What would the solar constant and surface brightness of the Sun be as seen from Jupiter?
+  Solar constant is a measure of flux or solar irradiance per unit area; it is defined by the amount of energy incident onto a plane at a distance of one astronomical unit from the Sun. The solar constant includes all types of solar irradiance and is a measurement of 1.366kW/m2, which is equivalent to 1.96 calories/min/cm2 or 1.96 Ly/min.
+  Surface Brightness of the sun is -10.7 Magnitude /arc-sec2 
+  The Solar Constant at earth is Psun/(4πR2)=1367W/m2, where R is the distance from the earth to the sun. 
+The distance from Jupiter to the sun is 5.46AU away, results in a Solar Constant equivalent to Psun/(4πR2)=46.27W/m2
+Unlike the solar constant the surface brightness is not dependent on distance, therefore it should be the same as seen from earth.
+
+(1/25, 5 minutes) Magnitudes.
+Two objects from the SDSS survey have g=17 and g=19.5, respectively. Which is brighter, and by how much?
+  The brighter an object appears, the lower the magnitude gets. Therefore, g(17) is brighter than g(19.5) a difference  of 2.5 magnitude 
+Star A has V=12, star B has V=14.5. Which is brighter, and by how much?
+  Star A is brighter than Star B by a magnitude of 2.5
+A star has B-V=0. What does that imply about the slope of its spectrum? Is the slope independent of whether F  or F  is being plotted? If not, how do they differ?
+  B-V=0, signifies that the ratio of flux of B and V is the same as the flux of B and V of Vega. Thus having the same spectral shape as Vega.
+  The slope is dependent on the type of photometric system being used. When working under the STMAG system, m=0 is flat in wavelength relative to Vegas brightness at 5500 anstrums.
+  In the ABNU system the frequency profile is a straight slope relative to Vegas.
