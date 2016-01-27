@@ -1,0 +1,35 @@
+ASTR-535
+Observational Techniques
+HOMEWORK #3
+	(1/27, 30 mins) Write a program that includes functions that convert between wavelength, frequency, and energy, and between F  (in ergs/cm2/s/Å) and F  (in ergs/cm2/s/Hz). All of these functions should exist in a single file in Python (preferred), IDL, C, C++, or Fortran file. Use the routines to determine frequency and energy at 5500Å, as well as the conversion factor between F and F  at 3000Å, 5500Å, and 8000Å.
+Code
+%1/26/16
+Clc;clear
+%Wavelength, Frequency, and Energy Relationship
+ 
+%Constants
+h=6.626e-34; %(Planck's constant in Joules sec)
+c=3.0e8;     %(Speed of ligt in a vacuum [m/s]) 
+%Frequency conversion 
+lambd=input('Input wavelength in Meters:  '); %Input wavelength argument in meters
+f=c/lambd;%function (freq)
+%Energy Conversion
+E=h*f;
+%Output Solution
+fprintf(' Wavelength: %e [M] \n Frequency: %e [Hz].\n Energy: %e [Js]\n', lambd,f,E)
+
+Soltion
+Input wavelength in Meters:  5500e-10
+ Wavelength: 5.500000e-007 [M] 
+ Frequency: 5.454545e+014 [Hz].
+ Energy: 3.614182e-019 [Js]
+
+∫▒〖F_λ dλ〗=∫▒〖F_υ dυ〗
+F_λ dλ=F_υ dυ
+F_υ=F_λ  dλ/dυ=F_λ  c/υ^2 =F_λ  λ^2/c
+	(1/27, 30 mins) Derive the relation between monochromatic magnitudes in the STMAG and the ABNU systems. Add a function to your module that does this conversion.
+M_STMAG=-2.5∙log(F_λ )-21.1
+M_ABNU=-2.5∙log(F_υ )-48.6
+-2.5∙log(F_λ )-21.1=-2.5∙log(F_υ )-48.6
+F_υ=F_λ∙10e-12
+
